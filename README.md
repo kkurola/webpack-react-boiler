@@ -3,6 +3,7 @@ A simple Webpack 2 setup with React and Sass.
 
 ## Usage
 npm install
+Add images and such to src/assets/
 
 ### Develop with webpack server & hot module reload:
 npm run dev
