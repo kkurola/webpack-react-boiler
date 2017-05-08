@@ -40,7 +40,7 @@ let config = {
       {
         test: /\.(png|jpg|eot|ttf|woff|woff2)$/,
         use: {
-          loader: 'url-loader?name=assets/[hash].[ext]'
+          loader: 'url-loader?limit=8192&name=assets/[hash].[ext]'
         }
       },
       {
