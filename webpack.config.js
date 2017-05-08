@@ -88,7 +88,7 @@ if (inProduction) {
       VERSION: JSON.stringify(pack.version)
     })
   ];
-  config.devServer: {
+  config.devServer = {
     contentBase: '/dist/',
     port: 8080,
     compress: true,
