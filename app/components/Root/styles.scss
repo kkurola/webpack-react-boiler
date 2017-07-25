@@ -1,0 +1,16 @@
+#root {
+    h1 {
+        color: purple;
+        &:after {
+            background: transparent url('~Images/rnd.png') no-repeat;
+            background-size: contain;
+            content: '';
+            display: inline-block;
+            height: 40px;
+            width: 60px;
+            margin-left: 15px;
+            position: relative;
+            top: 10px;
+        }
+    }
+}
